@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection{
+    background: #047161;
+    color: #fff;
+}
+
+body{
+  background: url("/bg.jpg") no-repeat center  fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.glass{
+    background: rgba(6, 113, 97, 0.68);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
